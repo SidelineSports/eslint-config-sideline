@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sideline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sideline Sports tweaks to Airbnb config",
   "main": "index.js",
   "scripts": {
