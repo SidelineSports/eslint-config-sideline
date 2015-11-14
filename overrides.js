@@ -46,4 +46,18 @@ module.exports = {
 
   // Force return with a callback
   "callback-return": [ 2, ["callback", "cb", "next"], ],
+
+  // Allow only a subset of variable shadowing
+  "no-shadow": [
+    2,
+    {
+      "allow": [
+        "done",
+        "resolve",
+        "reject",
+        "cb",
+        "err"
+      ]
+    }
+  ]
 };
