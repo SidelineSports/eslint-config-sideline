@@ -20,8 +20,8 @@ module.exports = {
   // Allow more than one variable to be declared on a single line
   "one-var": 0,
 
-  // Issue a warning if the cycomatic complexity of a method goes over 2
-  "complexity": [1, 2],
+  // Issue a warning if the cyclomatic complexity of a method goes over 3
+  "complexity": [1, 3],
 
   // Force camelCase
   "camelcase": [ 2, { "properties": "always" }, ],
